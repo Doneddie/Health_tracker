@@ -1,8 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:sdg3_health_tracker/utils/date_utils.dart';
+import 'package:sdg3_health_tracker/utils/error_utils.dart';
+import 'package:sdg3_health_tracker/utils/pref_utils.dart';
+import 'package:sdg3_health_tracker/models/medical_history.dart';
+
 
 
 class MedicalHistoryScreen extends StatefulWidget {
+  final User user; // Accepting the user object
+
+  MedicalHistoryScreen({required this.user});
   @override
   _MedicalHistoryScreenState createState() => _MedicalHistoryScreenState();
 }

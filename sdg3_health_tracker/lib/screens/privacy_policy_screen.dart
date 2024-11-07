@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sdg3_health_tracker/models/privacy_policy.dart';
 
 class PrivacyPolicyScreen extends StatelessWidget {
   // Privacy policy text

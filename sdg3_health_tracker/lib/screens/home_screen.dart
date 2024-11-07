@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:sdg3_health_tracker/utils/validation_utils.dart';
+import 'package:sdg3_health_tracker/utils/error_utils.dart';
+import 'package:sdg3_health_tracker/utils/pref_utils.dart';
+import 'package:sdg3_health_tracker/utils/string_utils.dart';
+import 'package:sdg3_health_tracker/utils/string_utils.dart';
 import 'medical_history_screen.dart';
 import 'medication_screen.dart';
 import 'reminders_screen.dart';
@@ -7,6 +12,9 @@ import 'checkup_screen.dart';
 import 'privacy_policy_screen.dart';
 
 class HomeScreen extends StatelessWidget {
+  final User user; // Accepting the user object
+
+  HomeScreen({required this.user});
   @override
   Widget build(BuildContext context) {
     return Scaffold(

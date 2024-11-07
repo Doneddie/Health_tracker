@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
+import 'package:sdg3_health_tracker/utils/date_utils.dart';
+import 'package:sdg3_health_tracker/models/health_checkup.dart';
+
 
 
 class CheckupScreen extends StatefulWidget {
+  final User user; // Accepting the user object
+
+  CheckupScreen({required this.user});
   @override
   _CheckupScreenState createState() => _CheckupScreenState();
 }

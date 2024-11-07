@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sdg3_health_tracker/models/health_tip.dart';
 
 class HealthTipsScreen extends StatelessWidget {
   // Sample list of health tips

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'screens/home_screen.dart';
+import 'package:sdg3_health_tracker/theme/app_theme.dart';
+import 'package:sdg3_health_tracker/screens/home_screen.dart';
+
 
 void main() {
   runApp(SDG3HealthTrackerApp());

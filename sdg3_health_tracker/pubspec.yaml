@@ -29,8 +29,13 @@ environment:
 # versions available, run `flutter pub outdated`.
 
 dependencies:
+  hive: ^2.0.4
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.10
+
   flutter:
     sdk: flutter
+    
 
   # Notification package for setting reminders
   flutter_local_notifications: ^18.0.0 # Use the latest version available
